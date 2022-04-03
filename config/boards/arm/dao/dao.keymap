@@ -54,6 +54,11 @@
             key-positions = <28 29>;
             bindings = <&kp DEL>;
         };
+        combo_ctrlN {
+            timeout-ms = <50>;
+            key-positions = <17 35>;
+            bindings = <&kp LC(N)>;
+        };
     };
 };
 
